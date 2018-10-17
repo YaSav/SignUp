@@ -1,0 +1,61 @@
+.inputBlock {
+	margin: 10px;
+}
+
+
+#validationMessage {
+	margin: 10px;
+	color: red;
+	display: none;
+}
+
+.validationMessage {
+	color: red;
+}
+
+body{
+  background-color: #659847;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#githubAccountBlock {
+	display: none;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+	width: 50%;
+}
+
+th {
+    padding: 15px;
+    text-align: center;
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+	padding: 10px;
+    text-align: center;
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td span {
+	font-size: 20px;
+}
+
+.right-side {
+	text-align: right;
+}
+
+img {
+	width: 40px;
+	height: 40px;
+}
+
+ 
