@@ -1,7 +1,11 @@
 .inputBlock {
 	margin: 10px;
+	display: flex;
 }
 
+input[type="text"], select {
+	flex: 1;
+}
 
 #validationMessage {
 	margin: 10px;
@@ -58,4 +62,3 @@ img {
 	height: 40px;
 }
 
- 
