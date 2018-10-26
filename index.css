@@ -1,55 +1,16 @@
-.inputBlock {
-	margin: 10px;
-	display: flex;
-}
-
-input[type="text"], select {
-	flex: 1;
-}
-
-#validationMessage {
-	margin: 10px;
-	color: red;
+.display-none {
 	display: none;
 }
 
-.validationMessage {
+.validation-message {
 	color: red;
 }
 
-body{
-  background-color: #659847;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+button[type="submit"] {
+    width: 100%;
 }
 
-#githubAccountBlock {
-	display: none;
-}
-
-table{
-    border: 1px solid black;
-    border-collapse: collapse;
-	width: 50%;
-}
-
-th {
-    padding: 15px;
-    text-align: center;
-	border: 1px solid black;
-    border-collapse: collapse;
-}
-
-td {
-	padding: 10px;
-    text-align: center;
-	border: 1px solid black;
-    border-collapse: collapse;
-}
-
-td span {
+td i {
 	font-size: 20px;
 }
 
@@ -61,4 +22,22 @@ img {
 	width: 40px;
 	height: 40px;
 }
+
+.container {
+    margin-top: 50px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+table tbody tr td a {
+    color: black;
+}
+
+
 
